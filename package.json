@@ -8,7 +8,7 @@
     "test": "karma start",
     "build": "rimraf lib && ngc -p src",
     "prepublish": "npm run build",
-    "postinstall": "postinstall-build lib"
+    "postinstall": "postinstall-build lib --script=build --verbose"
   },
   "keywords": [
     "angular2",
